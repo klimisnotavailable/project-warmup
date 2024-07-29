@@ -1,9 +1,11 @@
+import NavLink from "../NavLink/NavLink";
+
 const Navigation = () => {
     return(
         <ul className="flex space-x-4">
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Testimonials</a></li>
+            <li><NavLink>Skills</NavLink></li>
+            <li><NavLink>Projects</NavLink></li>
+            <li><NavLink>Testimonials</NavLink></li>
         </ul>
     )
 };
