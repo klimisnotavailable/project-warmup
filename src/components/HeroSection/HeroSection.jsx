@@ -2,7 +2,7 @@ import SocialsList from "../SocialsList/SocialsList";
 
 const HeroSection = () => {
   return (
-    <section className="bg-indigo-600 flex justify-around items-center p-10">
+    <section className=" flex justify-around items-center p-10">
       <div className="lg:w-1/3 ssm:w-fit">
         <p className="text-white text-4xl mb-4">I'M</p>
         <h1 className="text-white text-6xl mb-6">Abdullahi Umar</h1>

@@ -17,7 +17,7 @@ const Header = () => {
     };
 
     return (
-    <header className="bg-indigo-600 flex justify-between items-baseline p-10">
+    <header className="flex justify-between items-baseline p-10">
         <Logo><CgNametag/> AUCODE</Logo>
         <Navigation className="ssm:hidden md:flex space-x-4"/>  
         {mobileMenuIsOpen && <Navigation className="ssm:block md:hidden space-y-4"/>}  
