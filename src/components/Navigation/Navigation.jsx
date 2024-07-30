@@ -1,8 +1,8 @@
 import NavLink from "../NavLink/NavLink";
 
-const Navigation = () => {
+const Navigation = ({className}) => {
     return(
-        <ul className="flex space-x-4">
+        <ul className={className}>
             <li><NavLink>Skills</NavLink></li>
             <li><NavLink>Projects</NavLink></li>
             <li><NavLink>Testimonials</NavLink></li>
